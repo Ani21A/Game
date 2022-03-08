@@ -55,8 +55,19 @@ window.onload = function() {
 };
 
 let Snake = document.querySelector('[data-snake]');
-
+let Xo = document.querySelector('[data-xo]');
+let RockPaperScissors = document.querySelector('[data-rock-paper-scissors]');
+let About = document.querySelector('[data-about]');
 
 Snake.addEventListener('click' , function() {
     window.location.href = 'snake.html'
+})
+Xo.addEventListener('click' , function() {
+    window.location.href = 'xo.html'
+})
+RockPaperScissors.addEventListener('click' , function() {
+    window.location.href = 'RockPaperScissors.html'
+})
+About.addEventListener('click' , function() {
+    window.location.href = 'about.html'
 })
